@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/fonts/web/JetBrainsMono-Regular.woff');
+
+:root {
+  --sans: 'Inter', sans-serif;
+  --serif: 'Merriweather', serif;
+  --mono: 'JetBrains Mono', monospace;
+  --bg: #1f2124;
+  --main: #6799F3;
+  --lbg: #363A40;
+  --cnt: #ffffff; /* cunt, not contrast */
+  --lcnt: #eeeeee;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--cnt);
+  font-family: var(--sans);
+  margin: 0;
+}
+
+a {
+  color: var(--lcnt);
+  text-decoration: underline;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  min-width: 110px;
+  min-height: 38px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--cnt);
+  font-size: 16px;
+  font-family: var(--sans);
+  font-weight: bold;
+  border: 1px solid var(--main);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0;
+}
+
+.hero button {
+  margin-top: 32px;
+  min-height: 64px;
+  min-width: 220px;
+  font-size: 26px;
+  padding: 0;
+}
+
+.nav a {
+  color: var(--lcnt);
+  font-family: var(--mono);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.nav button {
+  font-family: var(--mono);
+  margin-left: 20px;
+}
+
+button:hover {
+  color: var(--bg);
+  background-color: var(--main);
+  transition: all 0.1s ease-in-out;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+}
+
+.title img {
+  width: 50px;
+}
+
+.title h1 {
+  margin-left: 20px;
+  font-size: 38px;
+}
+
+.bar {
+  margin-left: 8%;
+}
+
+.hero {
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  width: 800px;
+}
+
+.hero h1 {
+  font-size: 48px;
+}
+
+.hero p {
+  font-size: 26px;
+}

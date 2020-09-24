@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'jetbrains';
+  src: url(fonts/jetbrainsmono.wolff2);
+}
+
+@font-face {
+  font-family: 'inter';
+  src: url(fonts/inter.wolff2);
+}
+
+@font-face {
+  font-family: 'merriweather';
+  src: url(fonts/merriweather.wolff2);
+}
+
+@font-face {
+  font-family: 'material';
+  src: url(fonts/material.wolff2);
+}

@@ -11,7 +11,7 @@
   --serif: 'Merriweather', serif;
   --mono: 'JetBrains Mono', monospace;
   --bg: #1f2124;
-  --main: #6799F3;
+  --main: #3f8ee8;
   --lbg: #363A40;
   --cnt: #ffffff; /* cunt, not contrast */
   --lcnt: #eeeeee;
@@ -58,6 +58,8 @@ button {
   min-width: 220px;
   font-size: 26px;
   padding: 0;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .nav a {
@@ -74,7 +76,6 @@ button {
 }
 
 button:hover {
-  color: var(--bg);
   background-color: var(--main);
   transition: all 0.1s ease-in-out;
 }
@@ -115,4 +116,15 @@ button:active {
 
 .hero p {
   font-size: 26px;
+}
+
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 24px;
+  font-size: 16px;
+  text-align: center;
+  background-color: var(--main);
 }

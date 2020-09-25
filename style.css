@@ -13,8 +13,8 @@
   --bg: #1f2124;
   --main: #3f8ee8;
   --lbg: #363A40;
-  --cnt: #ffffff; /* cunt, not contrast */
-  --lcnt: #eeeeee;
+  --cnt: #eeeeee;
+  --lcnt: #bbbbbb;
 }
 
 body {
@@ -50,10 +50,11 @@ button {
   border: 1px solid var(--main);
   background-color: rgba(0, 0, 0, 0);
   padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .hero button {
-  margin-top: 32px;
   min-height: 64px;
   min-width: 220px;
   font-size: 26px;
@@ -116,15 +117,4 @@ button:active {
 
 .hero p {
   font-size: 26px;
-}
-
-.placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 24px;
-  font-size: 16px;
-  text-align: center;
-  background-color: var(--main);
 }

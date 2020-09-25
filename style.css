@@ -75,6 +75,10 @@ button {
   font-size: 16px;
 }
 
+.nav a:hover {
+  color: var(--cnt);
+}
+
 .nav button {
   font-family: var(--mono);
   margin-left: 20px;

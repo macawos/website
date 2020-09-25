@@ -29,6 +29,10 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  color: var(--cnt);
+}
+
 .nav {
   display: flex;
   flex-direction: row;

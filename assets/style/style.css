@@ -89,7 +89,7 @@ button {
   font-family: var(--mono);
   text-decoration: none;
   margin-left: 20px;
-  font-size: 18px;
+  font-size: 16px;
   transition: all 0.1s ease-in-out;
 }
 
@@ -99,7 +99,7 @@ button {
 
 .nav button {
   font-family: var(--mono);
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 20px;
 }
 

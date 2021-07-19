@@ -12,6 +12,18 @@
   --mono: 'JetBrains Mono', monospace;
   --bg: #1f2124;
   --main: #3f8ee8;
+  --red: #e73838;
+  --orange: #ee6630;
+  --yellow: #fdd03d;
+  --green: #70ce63;
+  --cyan: #5edfc3;
+  --aqua: #6bf5ff;
+  --lightblue: #5db6ff;
+  --darkblue: #6048c9;
+  --purple: #7c419e;
+  --magenta: #ca44ca;
+  --pink: #fc298b;
+  --lobster: #da385b;
   --lbg: #363A40;
   --cnt: #eeeeee;
   --lcnt: #bbbbbb;
@@ -49,7 +61,7 @@ h1 {
 button {
   min-width: 110px;
   min-height: 38px;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
   color: var(--cnt);
   font-size: 16px;
@@ -60,6 +72,7 @@ button {
   padding: 0;
   padding-left: 15px;
   padding-right: 15px;
+  transition: all 0.1s ease-in-out;
 }
 
 .hero button {
@@ -76,7 +89,8 @@ button {
   font-family: var(--mono);
   text-decoration: none;
   margin-left: 20px;
-  font-size: 16px;
+  font-size: 18px;
+  transition: all 0.1s ease-in-out;
 }
 
 .nav a:hover {
@@ -85,16 +99,24 @@ button {
 
 .nav button {
   font-family: var(--mono);
+  font-size: 18px;
   margin-left: 20px;
 }
 
 button:hover {
   background-color: var(--main);
-  transition: all 0.1s ease-in-out;
 }
 
 button:active {
   transform: translateY(1px);
+}
+
+.donate-button {
+  border: 1px solid var(--lobster);
+}
+
+.donate-button:hover {
+  background-color: var(--lobster);
 }
 
 .title {
@@ -142,7 +164,7 @@ button:active {
   max-width: 480px;
   padding: 20px;
   border: 1px solid var(--lbg);
-  border-radius: 8px;
+  border-radius: 6px;
   padding-top: 3px;
   padding-bottom: 3px;
 }

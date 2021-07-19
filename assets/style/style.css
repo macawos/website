@@ -33,6 +33,10 @@ a:hover {
   color: var(--cnt);
 }
 
+h1 {
+  font-size: 48px;
+}
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -119,10 +123,32 @@ button:active {
   width: 800px;
 }
 
-.hero h1 {
-  font-size: 48px;
-}
-
 .hero p {
   font-size: 26px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  min-height: 200px;
+  max-width: 480px;
+  padding: 20px;
+  border: 1px solid var(--lbg);
+  border-radius: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.post-header h2 {
+  border-left: 2px solid var(--main);
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
